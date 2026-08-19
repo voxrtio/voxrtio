@@ -1,11 +1,15 @@
  ## Hi, I'm Vic
 
-  I write about on-device speech AI at **VoxRT**, a Rust runtime for VAD, ASR, wake-word, and KWS on phones, Raspberry Pi, and browsers. No cloud, no GPU.
+  Content and technical writing at **VoxRT**, a Rust runtime for on-device speech AI: VAD, ASR, wake-word, KWS. Runs on Android, iOS, and Linux. Wake-word and KWS also run in the browser
+  via WASM.
 
   ### Recent writing
 
-  - [Building Private Voice Notes for iOS and Android Without the Cloud](https://dev.to/voxrtio/building-private-voice-notes-for-ios-and-android-without-the-cloud-54a8) on dev.to,
-  2026-08-12
+  - **[Streaming ASR vs Whisper on mobile: when to switch](https://dev.to/voxrtio/streaming-asr-vs-whisper-on-mobile-when-to-switch-5cm7)** (dev.to, 2026-08-18). Why Whisper's
+  chunked-batch approach feels laggy for live apps, and where native streaming ASR wins.
+  - [Building Private Voice Notes for iOS and Android Without the Cloud](https://dev.to/voxrtio/building-private-voice-notes-for-ios-and-android-without-the-cloud-54a8) (dev.to,
+  2026-08-12). Full tutorial for building an on-device voice notes pipeline (VAD + ASR + local storage) with working Kotlin and Swift code.
+
 
   ### Stack I work with
 
@@ -13,6 +17,7 @@
   - [voxrt-asr-android](https://github.com/VoxRT/voxrt-asr-android): streaming ASR for Android
   - [voxrt-silero-ios](https://github.com/VoxRT/voxrt-silero-ios): Silero VAD for iOS
   - [voxrt-asr-ios](https://github.com/VoxRT/voxrt-asr-ios): streaming ASR for iOS
+  - [voxrt-asr-linux](https://github.com/VoxRT/voxrt-asr-linux): streaming ASR for Linux (aarch64 + x86_64)
 
   ### Elsewhere
 
